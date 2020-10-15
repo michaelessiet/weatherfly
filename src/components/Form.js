@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Form , Button} from 'react-bootstrap';
 
 function FormPage ({setCity,city, api_call}) {
