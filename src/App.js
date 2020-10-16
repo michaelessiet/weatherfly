@@ -13,13 +13,13 @@ function App() {
 
   const api_call = () => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`,
+      `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`
     )
-      .then((res)=> res.json())
-      .then((result)=>{
-        console.log(result)
-        setWeather(result)
-      })
+      .then((res) => res.json())
+      .then((result) => {
+        console.log(result);
+        setWeather(result);
+      });
     
   }
 
