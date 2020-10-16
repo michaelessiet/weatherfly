@@ -13,7 +13,7 @@ function App() {
 
   const api_call = () => {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`,
     )
       .then((res)=> res.json())
       .then((result)=>{
