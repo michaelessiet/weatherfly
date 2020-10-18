@@ -4,7 +4,7 @@ import "./App.css";
 import FormPage from "./components/Form";
 import Home from "./components/Home";
 
-const api_key = "ff644359353b1426f05099e2e20cc857";
+const api_key = "fe2ea9577785fad4dce0a28ce40b8bbb";
 
 function App() {
   const [city, setCity] = useState("");

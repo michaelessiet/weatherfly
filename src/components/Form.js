@@ -12,7 +12,6 @@ function FormPage ({setCity,city, api_call, inputText, setinputText}) {
     e.preventDefault();
     setCity(e.target.value);
     api_call();
-    console.log(city)
   }
 
   return (

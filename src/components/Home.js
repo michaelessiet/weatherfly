@@ -5,8 +5,6 @@ import Anime from 'react-anime'
 
 function Home({ weather }) {
 
-  // const iconClass = `wi wi-${weather.weather[0].id}`
-
   if(weather.main !== undefined){
 
     const iconClass = `wi wi-owm-${weather.weather[0].id}`;
